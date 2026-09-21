@@ -1,0 +1,32 @@
+$ python main.py
+=========================================================
+[1m[36m        CRYPTOGRAPHIC CIPHER ANALYZER[0m
+[36m        Caesar & Vigenère Cryptanalysis Tool[0m
+=========================================================
+
+Purpose: Educational cybersecurity and cryptography analysis tool
+======================================================================
+[33mEDUCATIONAL USE ONLY[0m
+[33m[0m
+[33mThis project demonstrates classical cryptography and cryptanalysis.[0m
+[33mCaesar and Vigenere ciphers are historically important but are NOT[0m
+[33msecure modern encryption algorithms.[0m
+[33m[0m
+[33mDo not use this project to protect passwords, credentials, financial[0m
+[33minformation, personal data, or confidential communications.[0m
+======================================================================
+
+
+[1mMAIN MENU[0m
+[2m------------[0m
+  [1] Caesar Cipher (encrypt / decrypt)
+  [2] Vigenère Cipher (encrypt / decrypt)
+  [3] Frequency Analysis
+  [4] Break Caesar Cipher (automatic)
+  [5] Analyze Vigenère Cipher (cryptanalysis)
+  [6] File Encryption / Decryption
+  [7] Security Analysis
+  [8] Help
+  [9] Exit
+
+Enter your choice: [34m[1m[INFO][0m Exiting. Remember: educational use only.

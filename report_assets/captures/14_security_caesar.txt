@@ -1,0 +1,39 @@
+$ python main.py security --cipher caesar
+[1mSECURITY / STRENGTH ANALYSIS[0m
+[2m----------------------------[0m
+
+[1mCAESAR CIPHER[0m
+[2m-------------[0m
+  Cipher          : Caesar Cipher
+  Security rating : VERY WEAK
+  Keyspace        : 25 effective keys (26 shifts, shift 0 leaves the text unchanged)
+
+  Strengths:
+    - Trivial to implement and to explain, which makes it a good teaching tool.
+    - Encryption and decryption are fast and need no key exchange infrastructure.
+    - Useful as the building block that the Vigenere cipher generalises.
+
+  Weaknesses:
+    - Extremely small keyspace: the whole key can be tested in milliseconds.
+    - Easily broken with single-letter frequency analysis.
+    - The shift is preserved by the alphabet, so letter patterns survive intact.
+    - Identical plaintext always produces identical ciphertext (no randomness).
+    - No authentication: ciphertext can be modified without detection.
+
+  Known cryptanalytic attacks:
+    - Exhaustive brute force over all 26 shifts (see the 'Break Caesar Cipher' option).
+    - Chi-square / frequency scoring to rank candidate plaintexts automatically.
+    - Known-plaintext attack: one known letter reveals the entire shift.
+
+  Modern use      : Legacy puzzle games, CTF warm-up challenges and cryptography education only.
+  Verdict         : Never use the Caesar cipher to protect real information.
+======================================================================
+[33mEDUCATIONAL USE ONLY[0m
+[33m[0m
+[33mThis project demonstrates classical cryptography and cryptanalysis.[0m
+[33mCaesar and Vigenere ciphers are historically important but are NOT[0m
+[33msecure modern encryption algorithms.[0m
+[33m[0m
+[33mDo not use this project to protect passwords, credentials, financial[0m
+[33minformation, personal data, or confidential communications.[0m
+======================================================================

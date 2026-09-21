@@ -1,0 +1,110 @@
+[
+  {
+    "name": "01_environment",
+    "title": "Windows PowerShell - project environment",
+    "lines": 6,
+    "max_width": 125
+  },
+  {
+    "name": "02_structure",
+    "title": "Windows PowerShell - project structure",
+    "lines": 41,
+    "max_width": 46
+  },
+  {
+    "name": "03_launch",
+    "title": "Command Prompt - python main.py",
+    "lines": 32,
+    "max_width": 79
+  },
+  {
+    "name": "04_caesar_cli",
+    "title": "Command Prompt - Caesar cipher",
+    "lines": 29,
+    "max_width": 86
+  },
+  {
+    "name": "05_vigenere_cli",
+    "title": "Command Prompt - Vigenere cipher",
+    "lines": 31,
+    "max_width": 88
+  },
+  {
+    "name": "06_interactive_caesar",
+    "title": "Command Prompt - python main.py (interactive menu)",
+    "lines": 83,
+    "max_width": 86
+  },
+  {
+    "name": "07_frequency",
+    "title": "Command Prompt - frequency analysis",
+    "lines": 39,
+    "max_width": 147
+  },
+  {
+    "name": "08_crack_caesar",
+    "title": "Command Prompt - breaking the Caesar cipher",
+    "lines": 60,
+    "max_width": 90
+  },
+  {
+    "name": "09_ic",
+    "title": "Command Prompt - index of coincidence",
+    "lines": 29,
+    "max_width": 157
+  },
+  {
+    "name": "10_kasiski",
+    "title": "Command Prompt - Kasiski examination",
+    "lines": 62,
+    "max_width": 166
+  },
+  {
+    "name": "11_vigenere_analysis",
+    "title": "Command Prompt - full Vigenere cryptanalysis",
+    "lines": 89,
+    "max_width": 138
+  },
+  {
+    "name": "12_file_decrypt",
+    "title": "Command Prompt - file decryption",
+    "lines": 22,
+    "max_width": 87
+  },
+  {
+    "name": "13_file_encrypt",
+    "title": "Command Prompt - file encryption",
+    "lines": 21,
+    "max_width": 126
+  },
+  {
+    "name": "14_security_caesar",
+    "title": "Command Prompt - security assessment (Caesar)",
+    "lines": 39,
+    "max_width": 96
+  },
+  {
+    "name": "15_security_vigenere",
+    "title": "Command Prompt - security assessment (Vigenere)",
+    "lines": 41,
+    "max_width": 119
+  },
+  {
+    "name": "16_report_file",
+    "title": "Command Prompt - saving an analysis report",
+    "lines": 64,
+    "max_width": 129
+  },
+  {
+    "name": "17_report_content",
+    "title": "Command Prompt - generated report contents",
+    "lines": 173,
+    "max_width": 88
+  },
+  {
+    "name": "18_test_suite",
+    "title": "Command Prompt - automated test suite",
+    "lines": 169,
+    "max_width": 151
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "05_vigenere_cli",
+  "title": "Command Prompt - Vigenere cipher",
+  "sessions": [
+    {
+      "display": "python main.py vigenere-encrypt --text \"ATTACKATDAWN\" --key LEMON",
+      "output": "\u001b[1mVIGENERE ENCRYPTION\u001b[0m\n\u001b[2m-------------------\u001b[0m\n  Key           : LEMON\n  Key length    : 5\n  Input length  : 12\n  Output length : 12\n\n\u001b[1mOUTPUT\u001b[0m\n\u001b[2m------------\u001b[0m\n  LXFOPVEFRNHR\n\n\u001b[2m  The Vigen\u00e8re cipher uses a repeating keyword to apply different Caesar shifts.\u001b[0m\n\u001b[2m  Repeated-key behaviour leaks statistical patterns, which is what Kasiski\u001b[0m\n\u001b[2m  examination and Index of Coincidence analysis exploit.\u001b[0m"
+    },
+    {
+      "display": "python main.py vigenere-decrypt --text \"LXFOPVEFRNHR\" --key LEMON",
+      "output": "\u001b[1mVIGENERE DECRYPTION\u001b[0m\n\u001b[2m-------------------\u001b[0m\n  Key           : LEMON\n  Key length    : 5\n  Input length  : 12\n  Output length : 12\n\n\u001b[1mOUTPUT\u001b[0m\n\u001b[2m------------\u001b[0m\n  ATTACKATDAWN\n\n\u001b[2m  The Vigen\u00e8re cipher uses a repeating keyword to apply different Caesar shifts.\u001b[0m\n\u001b[2m  Repeated-key behaviour leaks statistical patterns, which is what Kasiski\u001b[0m\n\u001b[2m  examination and Index of Coincidence analysis exploit.\u001b[0m"
+    }
+  ]
+}

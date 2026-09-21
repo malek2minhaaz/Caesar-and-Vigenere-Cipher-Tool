@@ -1,0 +1,89 @@
+$ python main.py analyze-vigenere --input sample_data/vigenere_sample.txt
+[1mVIGENERE CRYPTANALYSIS[0m
+[2m----------------------[0m
+  Characters analysed          : 1072
+  Index of Coincidence         : 0.04351
+  IC interpretation            : Low: consistent with polyalphabetic or otherwise randomised text; letter frequencies have been flattened.
+  Repeated sequences found     : 50
+
+  Candidate key lengths (combined evidence, estimated):
+    Key length   Avg IC     Kasiski hits   Score
+    ----------   --------   ------------   -----
+             5    0.07079            164   0.948
+            10    0.07039             68   0.865
+            15    0.06955             22   0.834
+            20    0.07200             28   0.808
+             2    0.04341            160   0.699
+
+  Reminder: key lengths above are estimates from statistics, not facts.
+  Repeated sequences found by Kasiski examination
+[1m  Sequence  Count  Distances  Shared factors[0m
+  -----------------------------------------------
+  OWCSI         3  500, 395   5, 2, 4, 10, 20, 25
+  WCSID         3  500, 395   5, 2, 4, 10, 20, 25
+  CSIDH         2  395        5
+  CXSAR         2  60         2, 3, 4, 5, 6, 10
+  DHRIX         2  395        5
+  DXTOG         2  250        2, 5, 10, 25
+  EFWBY         2  20         2, 4, 5, 10, 20
+  EHPRO         2  385        5, 7, 11, 35
+  GPEOV         2  615        3, 5, 15
+  GSIBF         2  55         5, 11
+  Candidate key lengths (estimated)
+[1m  Key length  Average IC  Kasiski hits  Combined score[0m
+  ----------------------------------------------------
+  5              0.07079           164           0.948
+  10             0.07039            68           0.865
+  15             0.06955            22           0.834
+  20             0.07200            28           0.808
+  2              0.04341           160           0.699
+
+[1mKEY RECOVERY ASSUMING KEY LENGTH 5 (estimated)[0m
+[2m----------------------------------------------[0m
+  Per-column key letter candidates
+[1m  Key position  Suggested letters (score)[0m
+  ---------------------------------------------
+  1             L (57.31), Y (22.33), W (18.99)
+  2             E (56.59), P (23.98), Q (22.44)
+  3             M (57.94), B (19.98), Z (18.26)
+  4             O (50.87), E (18.41), D (18.09)
+  5             N (58.43), A (19.46), C (18.00)
+  Candidate keys and their decryptions (estimated)
+[1m  Rank  Candidate key  Score  Decrypted preview[0m
+  ----------------------------------------------------------------------------------------
+  1     LEMON          70.15  CRYPTOGRAPHY IS THE PRACTICE AND STUDY OF TECHNIQUES FOR ...
+  2     LQMON          61.99  CFYPTOURAPHM IS THS PRACHICE ABD STURY OF TSCHNIEUES FCR ...
+  3     YEMON          60.24  PRYPTBGRAPUY IS TUE PRAPTICE NND STHDY OF GECHNVQUES SOR ...
+  4     LEMDN          59.41  CRYATOGRLPHY ID THE PCACTINE AND DTUDY ZF TECSNIQUPS FOR ...
+  5     LEBON          59.28  CRJPTOGCAPHY TS THE ARACTTCE ANO STUDJ OF TENHNIQFES FOC ...
+  6     LEMOA          59.15  CRYPGOGRACHY IS GHE PRNCTICR AND SGUDY OS TECHAIQUEF FOR ...
+  7     LPMON          59.04  CGYPTOVRAPHN IS THT PRACIICE ACD STUSY OF TTCHNIFUES FDR ...
+  8     LEMEN          58.11  CRYZTOGRKPHY IC THE PBACTIME AND CTUDY YF TECRNIQUOS FOR ...
+
+[1mBEST GUESS (unconfirmed)[0m
+[2m------------------------[0m
+  Candidate key     : LEMON
+  Fitness score     : 70.15
+  Decrypted preview : CRYPTOGRAPHY IS THE PRACTICE AND STUDY OF TECHNIQUES FOR SECURE COMMUNICATION IN THE
+  PRESENCE OF ADVERSARIES. CLASSICAL CIPHERS SUCH AS THE CAESAR CIPHER AND THE VIGENERE
+  CIPHER ARE NOT SECURE, BUT THEY REMAIN EXCELLENT TEACHING TOOLS BECAUSE EVERY STEP OF
+  THEIR CRYPTANALYSIS CAN BE PERFORMED BY HAND. A CAESAR CIPHER SHIFTS EACH LETTER BY A
+  FIXED AMOUNT, SO THERE ARE ONLY TWENTY SIX POSSIBLE KEYS AND ANY ATTACKER CAN TEST THEM
+  ALL. A VIGENERE CIPHER USES A REPEATING KEYWORD TO APPLY A DIFFERENT SHIFT TO EVERY
+  LETTER, WHICH HIDES THE SIMPLE LETTER FREQUENCIES THAT MAKE THE CAESAR CIPHER SO EASY
+  TO BREAK. NEVERTHELESS, THE REPEATING KEYWORD INTRODUCES ITS OWN WEAKNESS: WHENEVER THE
+  KEY REALIGNS WITH THE PLAINTEXT THE SAME CIPHERTEXT PATTERN APPEARS AGAIN, AND THE
+  DISTANCE BETWEEN THOSE REPETITIONS IS A MULTIPLE OF THE KEY LENGTH. KASISKI EXAMINATION
+  TURNS THAT OBSERVATION INTO CANDIDATE KEY LENGTHS, THE INDEX OF COINCIDENCE CONFIRMS
+  THEM BY SHOWING THAT EACH COLUMN BEHAVES LIKE ORDINARY LANGUAGE, AND FREQUENCY ANALYSIS
+  FINISHES THE JOB ONE COLUMN AT A TIME. UNDERSTANDING THESE ATTACKS IS THE FIRST STEP
+  TOWARDS UNDERSTANDING WHY MODERN ENCRYPTION USES LARGE RANDOM KEYS, AUTHENTICATED
+  CIPHERTEXTS AND CAREFULLY REVIEWED ALGORITHMS INSTEAD OF SHARED SECRETS.
+
+  ATTACKATDAWN
+
+[2m  Estimated values are statistical guesses, not decrypted facts. Verify a[0m
+[2m  candidate key by reading the recovered plaintext: if it is meaningless, the[0m
+[2m  key length was probably wrong or the text is too short for cryptanalysis.[0m
+
+[2m  Educational use only: these classical ciphers are not secure for real data.[0m

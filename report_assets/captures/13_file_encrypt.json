@@ -1,0 +1,14 @@
+{
+  "name": "13_file_encrypt",
+  "title": "Command Prompt - file encryption",
+  "sessions": [
+    {
+      "display": "python main.py file-vigenere --input sample_data/caesar_sample_out.txt --key LEMON --output sample_data/message_vigenere.txt",
+      "output": "\u001b[1mFILE OPERATION COMPLETE\u001b[0m\n\u001b[2m-----------------------\u001b[0m\n  Cipher : Vigenere\n  Mode   : Encrypt\n  Detail : Key: LEMON\n  Input file        : sample_data\\caesar_sample_out.txt\n  Output file       : sample_data\\message_vigenere.txt\n  Characters read   : 1287\n  Characters written: 1287\n  Overwrote existing: no\n\n\u001b[2m  The original file was left untouched unless you explicitly chose to overwrite\u001b[0m\n\u001b[2m  it.\u001b[0m"
+    },
+    {
+      "display": "head -c 240 sample_data/message_vigenere.txt",
+      "output": "SIXZB HSDZQ\n\nNVKDGZKDOCSC UG GSI BFNNXUQR LRP GGFHK CS EIOVATUGSF QSD GRNYDS PZQYIATGMHVZR UB GSI\nBFRDIZQR ZJ MRIPVEOETIE. QYLWEWPLP OWCSIDG FFGT OF ELQ QNPWMF PTTTSE LRP HUP ZUURYIDS\nPTTTSE LVQ BBE WQQHCI, NIG ELQM EPQMWA PBOSYWIZH GPE"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+$ python main.py kasiski --input sample_data/vigenere_sample.txt
+[1mKASISKI EXAMINATION[0m
+[2m-------------------[0m
+  Characters analysed          : 1072
+  Sequence length searched     : 3-5
+  Repeated sequences found     : 50
+
+  Repeated sequences (positions are 0-based indices into the letters):
+    OWCSI  x3  positions: 102, 602, 997
+           distances: 500, 395  ->  factors: 5, 2, 4, 10, 20, 25
+    WCSID  x3  positions: 103, 603, 998
+           distances: 500, 395  ->  factors: 5, 2, 4, 10, 20, 25
+    CSIDH  x2  positions: 604, 999
+           distances: 395  ->  factors: 5
+    CXSAR  x2  positions: 686, 746
+           distances: 60  ->  factors: 2, 3, 4, 5, 6, 10, 12, 15
+    DHRIX  x2  positions: 607, 1002
+           distances: 395  ->  factors: 5
+    DXTOG  x2  positions: 465, 715
+           distances: 250  ->  factors: 2, 5, 10, 25
+    EFWBY  x2  positions: 706, 726
+           distances: 20  ->  factors: 2, 4, 5, 10, 20
+    EHPRO  x2  positions: 458, 843
+           distances: 385  ->  factors: 5, 7, 11, 35
+    ... and 42 more
+
+  Most common distance factors : 5 (61 hits), 2 (30 hits), 10 (30 hits), 4 (25 hits), 20 (25 hits), 25 (15 hits), 3 (12 hits), 15 (12 hits), 6 (10 hits), 12 (10 hits)
+  Likely key lengths           : 5, 2, 4, 10, 3, 6, 20, 7, 15, 12
+
+  Reminder: these are candidate key lengths derived from repeated sequences. Kasiski examination does not prove the key length and does not recover the key.
+  Repeated sequences
+[1m  Sequence  Count  Distances  Shared factors[0m
+  -----------------------------------------------
+  OWCSI         3  500, 395   5, 2, 4, 10, 20, 25
+  WCSID         3  500, 395   5, 2, 4, 10, 20, 25
+  CSIDH         2  395        5
+  CXSAR         2  60         2, 3, 4, 5, 6, 10
+  DHRIX         2  395        5
+  DXTOG         2  250        2, 5, 10, 25
+  EFWBY         2  20         2, 4, 5, 10, 20
+  EHPRO         2  385        5, 7, 11, 35
+  GPEOV         2  615        3, 5, 15
+  GSIBF         2  55         5, 11
+  Likely key lengths ranked by evidence
+[1m  Key length  Evidence[0m
+  --------------------
+  5                164
+  2                160
+  4                 74
+  10                68
+  3                 59
+  6                 33
+  20                28
+  7                 22
+  15                22
+  12                12
+
+[2m  Kasiski examination looks for ciphertext fragments that repeat. In a[0m
+[2m  repeating-key cipher such a repeat means the key realigned with the text, so[0m
+[2m  the distance between the repeats is a multiple of the key length. The common[0m
+[2m  factors of those distances are candidate key lengths - hypotheses to be[0m
+[2m  verified, not facts.[0m

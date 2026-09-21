@@ -1,0 +1,39 @@
+$ python main.py frequency --input sample_data/caesar_sample.txt
+[1mFREQUENCY ANALYSIS[0m
+[2m------------------[0m
+  Total characters      : 1287
+  Alphabetic characters : 1071
+  Most frequent letters : H (164), W (101), D (89), V (79), Q (74)
+  Least frequent letters: M (1), T (3), A (8), Y (10), E (12)
+  Ciphertext letter frequency
+[1m  Letter  Count  Frequency[0m
+  ------------------------
+  H         164     15.31%
+  W         101      9.43%
+  D          89      8.31%
+  V          79      7.38%
+  Q          74      6.91%
+  Compared with standard English frequencies
+[1m  Letter  Observed  English  Difference[0m
+  -------------------------------------
+  H         15.31%    6.09%      +9.22%
+  W          9.43%    2.36%      +7.07%
+  D          8.31%    4.25%      +4.06%
+  V          7.38%    0.98%      +6.40%
+  Q          6.91%    0.10%      +6.81%
+
+[1mINDEX OF COINCIDENCE (supporting evidence)[0m
+[2m------------------------------------------[0m
+  IC value       : 0.06987
+  Interpretation : Close to English: consistent with monoalphabetic text, or with a polyalphabetic cipher when the key length used here is correct.
+
+[2m  Frequency analysis counts how often each letter occurs. Ordinary English text[0m
+[2m  is very uneven (E, T and A dominate) while most classical ciphers flatten that[0m
+[2m  distribution, so the shape of the distribution is a strong hint about what[0m
+[2m  kind of cipher was used.[0m
+
+[2m  The Index of Coincidence measures how unevenly the letters are spread, using[0m
+[2m  IC = sum(fi(fi-1)) / N(N-1). English prose sits near 0.0667, random text near[0m
+[2m  0.0385. A value close to English suggests monoalphabetic text (or a[0m
+[2m  polyalphabetic cipher whose key length you have guessed correctly), but the IC[0m
+[2m  alone never proves the cipher type.[0m

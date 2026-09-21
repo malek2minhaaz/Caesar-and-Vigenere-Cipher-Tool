@@ -1,0 +1,10 @@
+{
+  "name": "09_ic",
+  "title": "Command Prompt - index of coincidence",
+  "sessions": [
+    {
+      "display": "python main.py ic --input sample_data/caesar_sample.txt --max-key-length 12",
+      "output": "\u001b[1mINDEX OF COINCIDENCE\u001b[0m\n\u001b[2m--------------------\u001b[0m\n  Characters analysed      : 1071\n  Index of Coincidence     : 0.06987\n  Reference (English prose): 0.0667\n  Reference (random text)  : 0.0385\n  Interpretation           : Close to English: consistent with monoalphabetic text, or with a polyalphabetic cipher when the key length used here is correct.\n  Average IC per assumed key length (closest to English first)\n\u001b[1m  Key length  Average IC of columns\u001b[0m\n  ---------------------------------\n  8                         0.07173\n  12                        0.07165\n  4                         0.07101\n  6                         0.07087\n  10                        0.07079\n  7                         0.07073\n  5                         0.07066\n  3                         0.07024\n  9                         0.07014\n  1                         0.06987\n  2                         0.06969\n  11                        0.06932\n\n\u001b[2m  The Index of Coincidence measures how unevenly the letters are spread, using\u001b[0m\n\u001b[2m  IC = sum(fi(fi-1)) / N(N-1). English prose sits near 0.0667, random text near\u001b[0m\n\u001b[2m  0.0385. A value close to English suggests monoalphabetic text (or a\u001b[0m\n\u001b[2m  polyalphabetic cipher whose key length you have guessed correctly), but the IC\u001b[0m\n\u001b[2m  alone never proves the cipher type.\u001b[0m"
+    }
+  ]
+}

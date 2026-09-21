@@ -1,0 +1,41 @@
+$ python main.py security --cipher vigenere
+[1mSECURITY / STRENGTH ANALYSIS[0m
+[2m----------------------------[0m
+
+[1mVIGENERE CIPHER[0m
+[2m---------------[0m
+  Cipher          : Vigenere Cipher
+  Security rating : WEAK / EDUCATIONAL ONLY
+  Keyspace        : 26^L keys for a key of length L (L=8 gives about 2.1e11 keys), but the keyspace is not the weakness
+
+  Strengths:
+    - Much larger keyspace than the Caesar cipher; historically called 'le chiffre indechiffrable'.
+    - Defeats naive single-letter frequency analysis when the key is as long as the message.
+    - Introduces the polyalphabetic idea that underlies the one-time pad.
+
+  Weaknesses:
+    - A repeating key means the same shift is reused, which leaks structure.
+    - Kasiski examination recovers probable key lengths from repeated sequences.
+    - Index of Coincidence per column reveals the key length and enables per-column analysis.
+    - Once the key length is known, each column is an independent Caesar cipher.
+    - Key length is effectively limited by human-memorable words, so real keys are short.
+    - No diffusion, no authentication and no randomness.
+
+  Known cryptanalytic attacks:
+    - Kasiski examination: repeated sequences give distances whose factors suggest the key length.
+    - Index of Coincidence: the average IC of the columns peaks at the true key length.
+    - Per-column frequency analysis (chi-square) guesses each key letter independently.
+    - Friedman / mutual Index of Coincidence estimates the key length statistically.
+
+  Modern use      : Cryptography education, puzzle solving and historical study only.
+  Verdict         : Suitable for teaching polyalphabetic ciphers, never for sensitive data.
+======================================================================
+[33mEDUCATIONAL USE ONLY[0m
+[33m[0m
+[33mThis project demonstrates classical cryptography and cryptanalysis.[0m
+[33mCaesar and Vigenere ciphers are historically important but are NOT[0m
+[33msecure modern encryption algorithms.[0m
+[33m[0m
+[33mDo not use this project to protect passwords, credentials, financial[0m
+[33minformation, personal data, or confidential communications.[0m
+======================================================================

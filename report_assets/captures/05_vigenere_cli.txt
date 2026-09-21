@@ -1,0 +1,31 @@
+$ python main.py vigenere-encrypt --text "ATTACKATDAWN" --key LEMON
+[1mVIGENERE ENCRYPTION[0m
+[2m-------------------[0m
+  Key           : LEMON
+  Key length    : 5
+  Input length  : 12
+  Output length : 12
+
+[1mOUTPUT[0m
+[2m------------[0m
+  LXFOPVEFRNHR
+
+[2m  The Vigenère cipher uses a repeating keyword to apply different Caesar shifts.[0m
+[2m  Repeated-key behaviour leaks statistical patterns, which is what Kasiski[0m
+[2m  examination and Index of Coincidence analysis exploit.[0m
+
+$ python main.py vigenere-decrypt --text "LXFOPVEFRNHR" --key LEMON
+[1mVIGENERE DECRYPTION[0m
+[2m-------------------[0m
+  Key           : LEMON
+  Key length    : 5
+  Input length  : 12
+  Output length : 12
+
+[1mOUTPUT[0m
+[2m------------[0m
+  ATTACKATDAWN
+
+[2m  The Vigenère cipher uses a repeating keyword to apply different Caesar shifts.[0m
+[2m  Repeated-key behaviour leaks statistical patterns, which is what Kasiski[0m
+[2m  examination and Index of Coincidence analysis exploit.[0m

@@ -1,0 +1,29 @@
+$ python main.py caesar-encrypt --text "ATTACK AT DAWN" --shift 3
+[1mCAESAR ENCRYPTION[0m
+[2m-----------------[0m
+  Shift used    : 3
+  Input length  : 14
+  Output length : 14
+
+[1mOUTPUT[0m
+[2m------------[0m
+  DWWDFN DW GDZQ
+
+[2m  The Caesar cipher shifts each alphabetic character by a fixed number of[0m
+[2m  positions. Because there are only 26 possible shifts, an attacker can easily[0m
+[2m  test every possibility.[0m
+
+$ python main.py caesar-decrypt --text "DWWDFN DW GDZQ" --shift 3
+[1mCAESAR DECRYPTION[0m
+[2m-----------------[0m
+  Shift used    : 3
+  Input length  : 14
+  Output length : 14
+
+[1mOUTPUT[0m
+[2m------------[0m
+  ATTACK AT DAWN
+
+[2m  The Caesar cipher shifts each alphabetic character by a fixed number of[0m
+[2m  positions. Because there are only 26 possible shifts, an attacker can easily[0m
+[2m  test every possibility.[0m

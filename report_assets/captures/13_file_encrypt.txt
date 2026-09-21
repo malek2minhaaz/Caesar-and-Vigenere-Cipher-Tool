@@ -1,0 +1,21 @@
+$ python main.py file-vigenere --input sample_data/caesar_sample_out.txt --key LEMON --output sample_data/message_vigenere.txt
+[1mFILE OPERATION COMPLETE[0m
+[2m-----------------------[0m
+  Cipher : Vigenere
+  Mode   : Encrypt
+  Detail : Key: LEMON
+  Input file        : sample_data\caesar_sample_out.txt
+  Output file       : sample_data\message_vigenere.txt
+  Characters read   : 1287
+  Characters written: 1287
+  Overwrote existing: no
+
+[2m  The original file was left untouched unless you explicitly chose to overwrite[0m
+[2m  it.[0m
+
+$ head -c 240 sample_data/message_vigenere.txt
+SIXZB HSDZQ
+
+NVKDGZKDOCSC UG GSI BFNNXUQR LRP GGFHK CS EIOVATUGSF QSD GRNYDS PZQYIATGMHVZR UB GSI
+BFRDIZQR ZJ MRIPVEOETIE. QYLWEWPLP OWCSIDG FFGT OF ELQ QNPWMF PTTTSE LRP HUP ZUURYIDS
+PTTTSE LVQ BBE WQQHCI, NIG ELQM EPQMWA PBOSYWIZH GPE

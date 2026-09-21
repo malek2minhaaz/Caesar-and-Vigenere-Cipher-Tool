@@ -1,0 +1,10 @@
+{
+  "name": "03_launch",
+  "title": "Command Prompt - python main.py",
+  "sessions": [
+    {
+      "display": "python main.py",
+      "output": "=========================================================\n\u001b[1m\u001b[36m        CRYPTOGRAPHIC CIPHER ANALYZER\u001b[0m\n\u001b[36m        Caesar & Vigen\u00e8re Cryptanalysis Tool\u001b[0m\n=========================================================\n\nPurpose: Educational cybersecurity and cryptography analysis tool\n======================================================================\n\u001b[33mEDUCATIONAL USE ONLY\u001b[0m\n\u001b[33m\u001b[0m\n\u001b[33mThis project demonstrates classical cryptography and cryptanalysis.\u001b[0m\n\u001b[33mCaesar and Vigenere ciphers are historically important but are NOT\u001b[0m\n\u001b[33msecure modern encryption algorithms.\u001b[0m\n\u001b[33m\u001b[0m\n\u001b[33mDo not use this project to protect passwords, credentials, financial\u001b[0m\n\u001b[33minformation, personal data, or confidential communications.\u001b[0m\n======================================================================\n\n\n\u001b[1mMAIN MENU\u001b[0m\n\u001b[2m------------\u001b[0m\n  [1] Caesar Cipher (encrypt / decrypt)\n  [2] Vigen\u00e8re Cipher (encrypt / decrypt)\n  [3] Frequency Analysis\n  [4] Break Caesar Cipher (automatic)\n  [5] Analyze Vigen\u00e8re Cipher (cryptanalysis)\n  [6] File Encryption / Decryption\n  [7] Security Analysis\n  [8] Help\n  [9] Exit\n\nEnter your choice: \u001b[34m\u001b[1m[INFO]\u001b[0m Exiting. Remember: educational use only."
+    }
+  ]
+}

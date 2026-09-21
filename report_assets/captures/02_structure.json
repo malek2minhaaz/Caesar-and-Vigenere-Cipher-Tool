@@ -1,0 +1,14 @@
+{
+  "name": "02_structure",
+  "title": "Windows PowerShell - project structure",
+  "sessions": [
+    {
+      "display": "ls -1",
+      "output": "__pycache__\nanalysis\nciphers\ndocs\nfile_operations\nmain.py\nreports\nsample_data\ntests\nutils"
+    },
+    {
+      "display": "ls -1 analysis ciphers file_operations utils",
+      "output": "analysis:\n__init__.py\n__pycache__\ncaesar_cracker.py\nfrequency.py\nic_analysis.py\nkasiski.py\nsecurity.py\nvigenere_analyzer.py\n\nciphers:\n__init__.py\n__pycache__\ncaesar.py\nvigenere.py\n\nfile_operations:\n__init__.py\n__pycache__\nfile_handler.py\n\nutils:\n__init__.py\n__pycache__\nbanner.py\nreport_generator.py\ntext_utils.py\nvalidators.py"
+    }
+  ]
+}

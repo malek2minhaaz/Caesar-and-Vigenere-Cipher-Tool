@@ -1,0 +1,6 @@
+$ python --version
+Python 3.13.14
+
+$ python -c "import sys; print('Environment:', sys.executable); print('Dependencies: standard library only')"
+Environment: C:\Users\malek\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+Dependencies: standard library only

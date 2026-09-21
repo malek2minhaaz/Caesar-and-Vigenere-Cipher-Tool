@@ -1,0 +1,14 @@
+{
+  "name": "04_caesar_cli",
+  "title": "Command Prompt - Caesar cipher",
+  "sessions": [
+    {
+      "display": "python main.py caesar-encrypt --text \"ATTACK AT DAWN\" --shift 3",
+      "output": "\u001b[1mCAESAR ENCRYPTION\u001b[0m\n\u001b[2m-----------------\u001b[0m\n  Shift used    : 3\n  Input length  : 14\n  Output length : 14\n\n\u001b[1mOUTPUT\u001b[0m\n\u001b[2m------------\u001b[0m\n  DWWDFN DW GDZQ\n\n\u001b[2m  The Caesar cipher shifts each alphabetic character by a fixed number of\u001b[0m\n\u001b[2m  positions. Because there are only 26 possible shifts, an attacker can easily\u001b[0m\n\u001b[2m  test every possibility.\u001b[0m"
+    },
+    {
+      "display": "python main.py caesar-decrypt --text \"DWWDFN DW GDZQ\" --shift 3",
+      "output": "\u001b[1mCAESAR DECRYPTION\u001b[0m\n\u001b[2m-----------------\u001b[0m\n  Shift used    : 3\n  Input length  : 14\n  Output length : 14\n\n\u001b[1mOUTPUT\u001b[0m\n\u001b[2m------------\u001b[0m\n  ATTACK AT DAWN\n\n\u001b[2m  The Caesar cipher shifts each alphabetic character by a fixed number of\u001b[0m\n\u001b[2m  positions. Because there are only 26 possible shifts, an attacker can easily\u001b[0m\n\u001b[2m  test every possibility.\u001b[0m"
+    }
+  ]
+}

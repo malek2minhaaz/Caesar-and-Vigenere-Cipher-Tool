@@ -1,0 +1,14 @@
+{
+  "name": "01_environment",
+  "title": "Windows PowerShell - project environment",
+  "sessions": [
+    {
+      "display": "python --version",
+      "output": "Python 3.13.14"
+    },
+    {
+      "display": "python -c \"import sys; print('Environment:', sys.executable); print('Dependencies: standard library only')\"",
+      "output": "Environment: C:\\Users\\malek\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\python.exe\nDependencies: standard library only"
+    }
+  ]
+}

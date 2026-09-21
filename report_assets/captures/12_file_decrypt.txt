@@ -1,0 +1,22 @@
+$ python main.py file-caesar --input sample_data/caesar_sample.txt --shift 3 --decrypt
+[1mFILE OPERATION COMPLETE[0m
+[2m-----------------------[0m
+  Cipher : Caesar
+  Mode   : Decrypt
+  Detail : Shift: 3
+  Input file        : sample_data\caesar_sample.txt
+  Output file       : sample_data\caesar_sample_out.txt
+  Characters read   : 1287
+  Characters written: 1287
+  Overwrote existing: no
+
+[2m  The original file was left untouched unless you explicitly chose to overwrite[0m
+[2m  it.[0m
+
+$ head -c 320 sample_data/caesar_sample_out.txt
+HELLO WORLD
+
+CRYPTOGRAPHY IS THE PRACTICE AND STUDY OF TECHNIQUES FOR SECURE COMMUNICATION IN THE
+PRESENCE OF ADVERSARIES. CLASSICAL CIPHERS SUCH AS THE CAESAR CIPHER AND THE VIGENERE
+CIPHER ARE NOT SECURE, BUT THEY REMAIN EXCELLENT TEACHING TOOLS BECAUSE EVERY STEP OF
+THEIR CRYPTANALYSIS CAN BE PERFORMED BY HAND.

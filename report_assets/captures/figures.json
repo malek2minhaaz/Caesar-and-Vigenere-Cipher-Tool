@@ -1,0 +1,589 @@
+{
+  "figure_width": 6.5,
+  "figures": [
+    {
+      "figure": "fig01_environment",
+      "capture": "01_environment",
+      "title": "Command Prompt - python --version",
+      "slices": [
+        {
+          "file": "fig01_environment",
+          "path": "report_assets/figures/fig01_environment.png",
+          "lines": 4,
+          "width": 1688,
+          "height": 304,
+          "page_height": 1.17
+        }
+      ]
+    },
+    {
+      "figure": "fig02_structure",
+      "capture": "02_structure",
+      "title": "Command Prompt - project structure",
+      "slices": [
+        {
+          "file": "fig02_structure",
+          "path": "report_assets/figures/fig02_structure.png",
+          "lines": 11,
+          "width": 1280,
+          "height": 544,
+          "page_height": 2.76
+        }
+      ]
+    },
+    {
+      "figure": "fig02b_modules",
+      "capture": "02_structure",
+      "title": "Command Prompt - Python packages",
+      "slices": [
+        {
+          "file": "fig02b_modules_1",
+          "path": "report_assets/figures/fig02b_modules_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig02b_modules_2",
+          "path": "report_assets/figures/fig02b_modules_2.png",
+          "lines": 14,
+          "width": 1280,
+          "height": 664,
+          "page_height": 3.37
+        }
+      ]
+    },
+    {
+      "figure": "fig03_launch",
+      "capture": "03_launch",
+      "title": "Command Prompt - python main.py",
+      "slices": [
+        {
+          "file": "fig03_launch_1",
+          "path": "report_assets/figures/fig03_launch_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig03_launch_2",
+          "path": "report_assets/figures/fig03_launch_2.png",
+          "lines": 13,
+          "width": 1280,
+          "height": 624,
+          "page_height": 3.17
+        },
+        {
+          "file": "fig03_launch_3",
+          "path": "report_assets/figures/fig03_launch_3.png",
+          "lines": 4,
+          "width": 1280,
+          "height": 264,
+          "page_height": 1.34
+        }
+      ]
+    },
+    {
+      "figure": "fig04_caesar",
+      "capture": "04_caesar_cli",
+      "title": "Command Prompt - Caesar cipher",
+      "slices": [
+        {
+          "file": "fig04_caesar_1",
+          "path": "report_assets/figures/fig04_caesar_1.png",
+          "lines": 17,
+          "width": 1416,
+          "height": 784,
+          "page_height": 3.6
+        },
+        {
+          "file": "fig04_caesar_2",
+          "path": "report_assets/figures/fig04_caesar_2.png",
+          "lines": 12,
+          "width": 1416,
+          "height": 584,
+          "page_height": 2.68
+        }
+      ]
+    },
+    {
+      "figure": "fig05_vigenere",
+      "capture": "05_vigenere_cli",
+      "title": "Command Prompt - Vigenere cipher",
+      "slices": [
+        {
+          "file": "fig05_vigenere_1",
+          "path": "report_assets/figures/fig05_vigenere_1.png",
+          "lines": 17,
+          "width": 1450,
+          "height": 784,
+          "page_height": 3.51
+        },
+        {
+          "file": "fig05_vigenere_2",
+          "path": "report_assets/figures/fig05_vigenere_2.png",
+          "lines": 14,
+          "width": 1450,
+          "height": 664,
+          "page_height": 2.98
+        }
+      ]
+    },
+    {
+      "figure": "fig06_interactive_menu",
+      "capture": "06_interactive_caesar",
+      "title": "Command Prompt - interactive mode",
+      "slices": [
+        {
+          "file": "fig06_interactive_menu_1",
+          "path": "report_assets/figures/fig06_interactive_menu_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig06_interactive_menu_2",
+          "path": "report_assets/figures/fig06_interactive_menu_2.png",
+          "lines": 17,
+          "width": 1416,
+          "height": 784,
+          "page_height": 3.6
+        },
+        {
+          "file": "fig06_interactive_menu_3",
+          "path": "report_assets/figures/fig06_interactive_menu_3.png",
+          "lines": 5,
+          "width": 1280,
+          "height": 304,
+          "page_height": 1.54
+        }
+      ]
+    },
+    {
+      "figure": "fig07_interactive_exit",
+      "capture": "06_interactive_caesar",
+      "title": "Command Prompt - interactive mode",
+      "slices": [
+        {
+          "file": "fig07_interactive_exit_1",
+          "path": "report_assets/figures/fig07_interactive_exit_1.png",
+          "lines": 17,
+          "width": 1416,
+          "height": 784,
+          "page_height": 3.6
+        },
+        {
+          "file": "fig07_interactive_exit_2",
+          "path": "report_assets/figures/fig07_interactive_exit_2.png",
+          "lines": 13,
+          "width": 1280,
+          "height": 624,
+          "page_height": 3.17
+        }
+      ]
+    },
+    {
+      "figure": "fig08_frequency",
+      "capture": "07_frequency",
+      "title": "Command Prompt - frequency analysis",
+      "slices": [
+        {
+          "file": "fig08_frequency_1",
+          "path": "report_assets/figures/fig08_frequency_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig08_frequency_2",
+          "path": "report_assets/figures/fig08_frequency_2.png",
+          "lines": 19,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig08_frequency_3",
+          "path": "report_assets/figures/fig08_frequency_3.png",
+          "lines": 5,
+          "width": 1450,
+          "height": 304,
+          "page_height": 1.36
+        }
+      ]
+    },
+    {
+      "figure": "fig09_crack_a",
+      "capture": "08_crack_caesar",
+      "title": "Command Prompt - breaking the Caesar cipher",
+      "slices": [
+        {
+          "file": "fig09_crack_a_1",
+          "path": "report_assets/figures/fig09_crack_a_1.png",
+          "lines": 19,
+          "width": 1603,
+          "height": 864,
+          "page_height": 3.5
+        },
+        {
+          "file": "fig09_crack_a_2",
+          "path": "report_assets/figures/fig09_crack_a_2.png",
+          "lines": 12,
+          "width": 1620,
+          "height": 584,
+          "page_height": 2.34
+        }
+      ]
+    },
+    {
+      "figure": "fig10_crack_b",
+      "capture": "08_crack_caesar",
+      "title": "Command Prompt - recovered plaintext",
+      "slices": [
+        {
+          "file": "fig10_crack_b_1",
+          "path": "report_assets/figures/fig10_crack_b_1.png",
+          "lines": 19,
+          "width": 1620,
+          "height": 864,
+          "page_height": 3.47
+        },
+        {
+          "file": "fig10_crack_b_2",
+          "path": "report_assets/figures/fig10_crack_b_2.png",
+          "lines": 9,
+          "width": 1501,
+          "height": 464,
+          "page_height": 2.01
+        }
+      ]
+    },
+    {
+      "figure": "fig11_ic",
+      "capture": "09_ic",
+      "title": "Command Prompt - index of coincidence",
+      "slices": [
+        {
+          "file": "fig11_ic_1",
+          "path": "report_assets/figures/fig11_ic_1.png",
+          "lines": 19,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig11_ic_2",
+          "path": "report_assets/figures/fig11_ic_2.png",
+          "lines": 10,
+          "width": 1450,
+          "height": 504,
+          "page_height": 2.26
+        }
+      ]
+    },
+    {
+      "figure": "fig12_kasiski_a",
+      "capture": "10_kasiski",
+      "title": "Command Prompt - Kasiski examination",
+      "slices": [
+        {
+          "file": "fig12_kasiski_a_1",
+          "path": "report_assets/figures/fig12_kasiski_a_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig12_kasiski_a_2",
+          "path": "report_assets/figures/fig12_kasiski_a_2.png",
+          "lines": 17,
+          "width": 1688,
+          "height": 864,
+          "page_height": 3.33
+        }
+      ]
+    },
+    {
+      "figure": "fig13_kasiski_b",
+      "capture": "10_kasiski",
+      "title": "Command Prompt - Kasiski examination",
+      "slices": [
+        {
+          "file": "fig13_kasiski_b_1",
+          "path": "report_assets/figures/fig13_kasiski_b_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig13_kasiski_b_2",
+          "path": "report_assets/figures/fig13_kasiski_b_2.png",
+          "lines": 15,
+          "width": 1416,
+          "height": 704,
+          "page_height": 3.23
+        }
+      ]
+    },
+    {
+      "figure": "fig14_vigenere_a",
+      "capture": "11_vigenere_analysis",
+      "title": "Command Prompt - Vigenere cryptanalysis",
+      "slices": [
+        {
+          "file": "fig14_vigenere_a_1",
+          "path": "report_assets/figures/fig14_vigenere_a_1.png",
+          "lines": 19,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig14_vigenere_a_2",
+          "path": "report_assets/figures/fig14_vigenere_a_2.png",
+          "lines": 11,
+          "width": 1280,
+          "height": 544,
+          "page_height": 2.76
+        }
+      ]
+    },
+    {
+      "figure": "fig15_vigenere_b",
+      "capture": "11_vigenere_analysis",
+      "title": "Command Prompt - key recovery",
+      "slices": [
+        {
+          "file": "fig15_vigenere_b_1",
+          "path": "report_assets/figures/fig15_vigenere_b_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig15_vigenere_b_2",
+          "path": "report_assets/figures/fig15_vigenere_b_2.png",
+          "lines": 15,
+          "width": 1620,
+          "height": 704,
+          "page_height": 2.82
+        }
+      ]
+    },
+    {
+      "figure": "fig16_vigenere_c",
+      "capture": "11_vigenere_analysis",
+      "title": "Command Prompt - recovered key",
+      "slices": [
+        {
+          "file": "fig16_vigenere_c_1",
+          "path": "report_assets/figures/fig16_vigenere_c_1.png",
+          "lines": 19,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig16_vigenere_c_2",
+          "path": "report_assets/figures/fig16_vigenere_c_2.png",
+          "lines": 10,
+          "width": 1501,
+          "height": 504,
+          "page_height": 2.18
+        }
+      ]
+    },
+    {
+      "figure": "fig17_file_decrypt",
+      "capture": "12_file_decrypt",
+      "title": "Command Prompt - decrypting a file",
+      "slices": [
+        {
+          "file": "fig17_file_decrypt_1",
+          "path": "report_assets/figures/fig17_file_decrypt_1.png",
+          "lines": 18,
+          "width": 1552,
+          "height": 824,
+          "page_height": 3.45
+        },
+        {
+          "file": "fig17_file_decrypt_2",
+          "path": "report_assets/figures/fig17_file_decrypt_2.png",
+          "lines": 4,
+          "width": 1535,
+          "height": 264,
+          "page_height": 1.12
+        }
+      ]
+    },
+    {
+      "figure": "fig18_file_encrypt",
+      "capture": "13_file_encrypt",
+      "title": "Command Prompt - encrypting a file",
+      "slices": [
+        {
+          "file": "fig18_file_encrypt_1",
+          "path": "report_assets/figures/fig18_file_encrypt_1.png",
+          "lines": 17,
+          "width": 1688,
+          "height": 824,
+          "page_height": 3.17
+        },
+        {
+          "file": "fig18_file_encrypt_2",
+          "path": "report_assets/figures/fig18_file_encrypt_2.png",
+          "lines": 4,
+          "width": 1535,
+          "height": 264,
+          "page_height": 1.12
+        }
+      ]
+    },
+    {
+      "figure": "fig19_security_caesar",
+      "capture": "14_security_caesar",
+      "title": "Command Prompt - security assessment",
+      "slices": [
+        {
+          "file": "fig19_security_caesar_1",
+          "path": "report_assets/figures/fig19_security_caesar_1.png",
+          "lines": 18,
+          "width": 1518,
+          "height": 824,
+          "page_height": 3.53
+        },
+        {
+          "file": "fig19_security_caesar_2",
+          "path": "report_assets/figures/fig19_security_caesar_2.png",
+          "lines": 17,
+          "width": 1688,
+          "height": 784,
+          "page_height": 3.02
+        },
+        {
+          "file": "fig19_security_caesar_3",
+          "path": "report_assets/figures/fig19_security_caesar_3.png",
+          "lines": 4,
+          "width": 1280,
+          "height": 264,
+          "page_height": 1.34
+        }
+      ]
+    },
+    {
+      "figure": "fig20_security_vigenere",
+      "capture": "15_security_vigenere",
+      "title": "Command Prompt - security assessment",
+      "slices": [
+        {
+          "file": "fig20_security_vigenere_1",
+          "path": "report_assets/figures/fig20_security_vigenere_1.png",
+          "lines": 18,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig20_security_vigenere_2",
+          "path": "report_assets/figures/fig20_security_vigenere_2.png",
+          "lines": 19,
+          "width": 1688,
+          "height": 904,
+          "page_height": 3.48
+        },
+        {
+          "file": "fig20_security_vigenere_3",
+          "path": "report_assets/figures/fig20_security_vigenere_3.png",
+          "lines": 4,
+          "width": 1280,
+          "height": 264,
+          "page_height": 1.34
+        }
+      ]
+    },
+    {
+      "figure": "fig21_report_saved",
+      "capture": "16_report_file",
+      "title": "Command Prompt - saving an analysis report",
+      "slices": [
+        {
+          "file": "fig21_report_saved_1",
+          "path": "report_assets/figures/fig21_report_saved_1.png",
+          "lines": 18,
+          "width": 1603,
+          "height": 824,
+          "page_height": 3.34
+        },
+        {
+          "file": "fig21_report_saved_2",
+          "path": "report_assets/figures/fig21_report_saved_2.png",
+          "lines": 4,
+          "width": 1620,
+          "height": 264,
+          "page_height": 1.06
+        }
+      ]
+    },
+    {
+      "figure": "fig22_report_content",
+      "capture": "17_report_content",
+      "title": "Text file - generated analysis report",
+      "slices": [
+        {
+          "file": "fig22_report_content_1",
+          "path": "report_assets/figures/fig22_report_content_1.png",
+          "lines": 15,
+          "width": 1280,
+          "height": 704,
+          "page_height": 3.58
+        },
+        {
+          "file": "fig22_report_content_2",
+          "path": "report_assets/figures/fig22_report_content_2.png",
+          "lines": 19,
+          "width": 1586,
+          "height": 864,
+          "page_height": 3.54
+        },
+        {
+          "file": "fig22_report_content_3",
+          "path": "report_assets/figures/fig22_report_content_3.png",
+          "lines": 6,
+          "width": 1518,
+          "height": 344,
+          "page_height": 1.47
+        }
+      ]
+    },
+    {
+      "figure": "fig23_tests",
+      "capture": "18_test_suite",
+      "title": "Command Prompt - automated test suite",
+      "slices": [
+        {
+          "file": "fig23_tests_1",
+          "path": "report_assets/figures/fig23_tests_1.png",
+          "lines": 10,
+          "width": 1688,
+          "height": 864,
+          "page_height": 3.33
+        },
+        {
+          "file": "fig23_tests_2",
+          "path": "report_assets/figures/fig23_tests_2.png",
+          "lines": 9,
+          "width": 1688,
+          "height": 624,
+          "page_height": 2.4
+        }
+      ]
+    }
+  ]
+}
